@@ -41,6 +41,7 @@ local assetFiles = {
 	["https://i.postimg.cc/jS5GdTrw/skins-icon.png"] = "SkinsIcon.png",
 	["https://i.postimg.cc/prRSNbZ2/icons8-save-100.png"] = "ConfigIcon.png"
 }
+
 local cachedAssets = {}
 do
 	library.__index = library
@@ -175,7 +176,6 @@ function utility:GetAsset(Asset)
 		print(resp)
 	end
 end
-_G.getAsset = utility.GetAsset
 
 function utility:MakeFolders()
 	if not isfolder(rootFolderName) then
