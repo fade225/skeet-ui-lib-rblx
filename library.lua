@@ -56,6 +56,7 @@ local UserInputService = cloneref(game:GetService("UserInputService"))
 local TweenService = cloneref(game:GetService("TweenService"))
 local HttpService = cloneref(game:GetService("HttpService"))
 local Workspace = cloneref(game:GetService("Workspace"))
+local GuiService = cloneref(game:GetService("GuiService"))
 
 local Camera = Workspace.CurrentCamera
 local LocalPlayer = Players.LocalPlayer
